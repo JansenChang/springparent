@@ -12,7 +12,7 @@ zuul:
   routes:
     api-a:
       path: /api-a/**
-      serviceId: RIBBON
+      serviceId: ribbon
     api-b:
       path: /api-b/**
       serviceId: FEIGN
