@@ -5,6 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+/**
+ * value  注解指定服务
+ * fallback 指定熔断器
+ */
 @FeignClient(value="service-jansen",fallback = SchedualServiceHiHystric.class)
 public interface SchedualService {
 
