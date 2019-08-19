@@ -22,7 +22,6 @@
         <module>serviceribbon</module>
         <module>sericefeign</module>
         <module>servicezull</module>
-        <module>configserver</module>
     </modules>
     <repositories>
         <repository>
